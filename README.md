@@ -97,7 +97,7 @@ Each property below is a page on APIs.io carrying the machine-readable artifact 
 
 Which operations an agent can call, which act, and which need a human in the loop.
 
-- [Adslighthouse Agentic Access](https://apis.io/agentic-access/adslighthouse/adslighthouse-agentic-access/)
+- [Ads Lighthouse Agentic Access](https://apis.io/agentic-access/adslighthouse/adslighthouse-agentic-access/)
 
 #### JSON-LD (1)
 
@@ -109,7 +109,7 @@ Linked-data contexts for the provider's vocabulary.
 
 OpenAPI overlays, including conversational phrasing for each operation.
 
-- [Adslighthouse Openapi Overlay](https://apis.io/overlays/adslighthouse/adslighthouse-openapi-overlay/)
+- [Ads Lighthouse Openapi Overlay](https://apis.io/overlays/adslighthouse/adslighthouse-openapi-overlay/)
 
 #### Governance rules (1)
 
@@ -121,16 +121,23 @@ Spectral rulesets for the provider's contracts.
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [Adslighthouse Authentication](https://apis.io/security/adslighthouse/adslighthouse-authentication/)
-- [Adslighthouse Domain Security](https://apis.io/security/adslighthouse/adslighthouse-domain-security/)
-- [Adslighthouse Trust Center](https://apis.io/security/adslighthouse/adslighthouse-trust-center/)
-- [Adslighthouse Vulnerability Disclosure](https://apis.io/security/adslighthouse/adslighthouse-vulnerability-disclosure/)
+- [Ads Lighthouse Authentication](https://apis.io/security/adslighthouse/adslighthouse-authentication/)
+- [Ads Lighthouse Domain Security](https://apis.io/security/adslighthouse/adslighthouse-domain-security/)
+- [Ads Lighthouse Trust Center](https://apis.io/security/adslighthouse/adslighthouse-trust-center/)
+- [Ads Lighthouse Vulnerability Disclosure](https://apis.io/security/adslighthouse/adslighthouse-vulnerability-disclosure/)
 
-#### Plans and pricing (1)
+#### Plans and pricing (2)
 
 Published plans, tiers and prices.
 
-- [Adslighthouse Plans Pricing](https://apis.io/plans/adslighthouse/adslighthouse-plans-pricing/)
+- [Ads Lighthouse Plans Pricing](https://apis.io/plans/adslighthouse/adslighthouse-plans-pricing/)
+- [Ads Lighthouse Price Estimates](https://apis.io/plans/adslighthouse/adslighthouse-price-estimates/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Ads Lighthouse Finops](https://apis.io/finops/adslighthouse/adslighthouse-finops/)
 
 ## Where to find this API
 
@@ -152,28 +159,28 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 62.1** — strong · rubric 0.25.0 · scored 2026-10-23
+**Kin Score 62.2** — strong · rubric 0.28.1 · scored 2026-11-21
 
 | Facet | Score |
 |---|---|
-| Discoverability | 64.3 |
+| Discoverability | 66.7 |
 | Contract quality | 57.3 |
 | Contract governance | 19.7 |
-| Operational transparency | 34.2 |
+| Operational transparency | 31.0 |
 | Developer ergonomics | 49.4 |
-| Access clarity | 92.1 |
+| Access clarity | 93.6 |
 
-**Agent readiness 50.7** — agent-ready (gated down from agent-native)
+**Agent readiness 62.4** — agent-native
 
 | Agent-readiness dimension | Result |
 |---|---|
 | Spec Presence | yes |
 | Agentic Access | derived (partial credit) |
 | Reversibility Documented | documented (partial credit) |
-| MCP Server | — |
+| MCP Server | verified |
 | Auth Clarity | served (partial credit) |
 | Idempotency | verified |
-| Error Semantics | derived (partial credit) |
+| Error Semantics | verified |
 | OpenAPI Examples | partial |
 | Rate Limit Signal | — |
 | Event Surface Described | unknown |
@@ -188,6 +195,10 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Agentic Commerce | — |
 | Pagination Ratio | partial |
 | Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+| Onboarding Descriptor | — |
+| Dns Aid Index | na |
+| Markdown Negotiation | na |
 
 **Regulatory alignment 35.3** — Horizontal (data, software, accessibility, platform)
 
